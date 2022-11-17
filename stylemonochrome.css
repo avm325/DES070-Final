@@ -1,7 +1,4 @@
 
-
-
-
 .monoback_mobile{
     display: none;
 }
@@ -17,6 +14,7 @@
     color: white;
     justify-content: center;
     padding-top: 2vw;
+    z-index: 1;
 }
 
 
