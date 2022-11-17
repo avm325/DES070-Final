@@ -124,7 +124,8 @@ grid-template-rows: repeat(1, 1fr);
 overflow: hidden;
 padding: 30px;
 column-gap: 50px;
-
+grid-row: 40;
+grid-column: 1/13;
 }
 .smlogo{
 grid-row: 1;
