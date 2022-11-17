@@ -1,12 +1,7 @@
 
 
 
-.logo{
-    grid-row: 1;
-    grid-column: 1/6;
-    padding-left: 3vw;
-    scale: 77%;
-}
+
 .monoback_mobile{
     display: none;
 }

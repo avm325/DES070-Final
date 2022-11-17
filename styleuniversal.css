@@ -10,10 +10,18 @@ html{ scroll-behavior: smooth; background: #232930;}
     grid-template-rows: fit-content(8ch) fit-content(8ch) 1fr;
     justify-content: center;
 }
+.logo{
+    grid-row: 1;
+    grid-column: 1/6;
+    padding-left: 3vw;
+    scale: 77%;
+    z-index: 1;
+}
 .title{
     grid-row: 1;
     grid-column: 6/11;
     padding-top: 7vw;
+    z-index: 1;
 }
 .icons{
     display: grid;

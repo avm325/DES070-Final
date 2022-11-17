@@ -4,6 +4,7 @@
     grid-column: 1/6;
     padding-left: 3vw;
     scale: 77%;
+    z-index: 1;
 }
 .bback_mobile{
     display: none;
@@ -12,7 +13,6 @@
     grid-column: 1/13;
     scale: 100%;
     grid-row: 1/5;
-    z-index: 0;
 }
 .heading{
     text-align: center;
@@ -25,6 +25,7 @@
     color: white;
     justify-content: center;
     padding-top: 2vw;
+    z-index: 1;
 }
 
 
@@ -71,11 +72,11 @@
     position: relative;
     grid-column: 1/13;
     grid-row: 1/5;
-    z-index: -1;
+    z-index: 1;
     width: 100%;
     
   }
-  .fade .monoback:before {
+  .fade .back:before {
     content: '';
     background-image: linear-gradient(to top, #232930,#23293063, rgba(255, 255, 255, 0.085));
     position: absolute;
@@ -85,7 +86,7 @@
     width: 100%;
 
   }
-  .fade .monoback:after {
+  .fade .back:after {
     content: '';
   }
 
