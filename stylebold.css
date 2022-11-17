@@ -50,7 +50,7 @@
 
 .img1{
     grid-row: 10/15;
-    grid-column: 7/12;
+    grid-column: 2/6;
     padding-top: 70px;
     padding: 10px;
 }
@@ -58,6 +58,13 @@
     grid-row: 13/18;
     grid-column: 2/7;
     padding: 10px;
+}
+.patterns{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-row: 30;
+    grid-column: 1/13;
 }
 
 /* image fade  */

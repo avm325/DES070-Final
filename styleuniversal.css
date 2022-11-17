@@ -24,14 +24,17 @@ html{ scroll-behavior: smooth; background: #232930;}
     z-index: 1;
 }
 .icons{
-    display: grid;
+    display: gri;
     grid-template-columns: repeat(4, 1fr);
     grid-row: 1;
     grid-column: 12;
     z-index: 2;
-    column-gap: 1.5vw;
-    padding-right: 1vh;
-    scale:105%;
+    column-gap: 1vw;
+    padding-top: 3vw;
+    padding-right: 2vw;
+    display: inline-flex;
+    scale: 150%;
+
 }
 /* .menu{left: 80vw;top: 1vw;}
 .search{left: 85vw;top: .55vw;}
