@@ -61,6 +61,7 @@ nav{
     grid-column: 1/13;
     grid-row: 3;
     padding-top: 25vw;
+    z-index: 2;
 }
 /* carosel code */
 .carosel_gradient{
