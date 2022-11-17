@@ -15,7 +15,7 @@ html{ scroll-behavior: smooth; background: #232930;}
     grid-column: 1/6;
     padding-left: 3vw;
     scale: 77%;
-    z-index: 1;
+    z-index: 2;
 }
 .title{
     grid-row: 1;
@@ -237,35 +237,12 @@ text-decoration: none;
         scale: 80%;
         padding-top: 10px;
     }
-    .monoback{
-        display: none;
-    }
-    .monoback_mobile{
-        display: block;
-    }
     .title{
         display: none;
     }
-    .img2,.img1,.dot,.carosel{grid-column:1/13;}
-
-    .article_1{grid-row: 7;}
-
-    .img1{grid-row: 8;}
-
-    .article_2{grid-row: 9;}
-
-    .img2{grid-row: 10;}
-
 
     .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13;}
 
-    .article_1,.article_2,.article_3,.article_4{
-        grid-column: 1/13;
-        padding-left: 25px;
-        padding-right: 25px;
-
-    }
-    .article_3{grid-row: 12;}
     .nav_links{
         transform: rotate(0deg);
         grid-column: 1/13;
