@@ -4,8 +4,8 @@
 .logo{
     grid-row: 1;
     grid-column: 1/6;
-    padding-top: .5vw; padding-left: 4vw;
-    scale: 85%;
+    padding-left: 3vw;
+    scale: 77%;
 }
 .monoback_mobile{
     display: none;

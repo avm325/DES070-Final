@@ -18,17 +18,17 @@ html{ scroll-behavior: smooth; background: #232930;}
 .icons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    scale: 30%;
     grid-row: 1;
-    grid-column: 6/12;
-    left: 30vw;
+    grid-column: 12;
     z-index: 2;
-    column-gap: 3vw;
+    column-gap: 1.5vw;
+    padding-right: 1vh;
+    scale:105%;
 }
-.menu{left: 80vw;top: 1vw;}
+/* .menu{left: 80vw;top: 1vw;}
 .search{left: 85vw;top: .55vw;}
 .profile{left: 90vw;top: .4vw;}
-.cart{left: 95vw;top: .45vw;}
+.cart{left: 95vw;top: .45vw;} */
 
 nav{
     grid-column: 1;
