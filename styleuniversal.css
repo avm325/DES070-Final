@@ -271,11 +271,14 @@ text-decoration: none;
         padding-left: 10px;
     }
     .ul1,.ul2,.ul3,.ul4{
-        grid-column: 3/4;
+        grid-column: 2/5;
         text-align: center;
         row-gap: 15px;
+        line-height: 25px;
     }
+    .ul1 h1{line-height: 25px;}.ul2 h1{line-height: 25px;}.ul3 h1{line-height: 25px;}.ul4 h1{line-height: 25px;}
     .footer{column-gap: 0px;}
     .smlogo{display: none;}
+    h3{font-size: 18px;}
     
 }
