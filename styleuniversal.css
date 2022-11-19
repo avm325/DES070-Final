@@ -43,20 +43,22 @@ html{ scroll-behavior: smooth; background: #232930;}
 
 nav{
     grid-column: 1;
-    grid-row: 1/6;
+    grid-row: 1/7;
     z-index: 1;
+    
 }
 .nav_links{
     transform: rotate(180deg);
+    writing-mode: vertical-lr;
     padding-right: 1.5vw;
     padding-bottom: 12vw;
-    writing-mode: vertical-rl;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
     font-family: garamond-premier-pro-display,serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    word-spacing: 3vh;
+    word-spacing: .5vh;
+    cursor: pointer;
 }
 
 .subheading{
