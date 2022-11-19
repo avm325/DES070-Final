@@ -24,7 +24,7 @@
 
 .article_1{
     grid-row: 7/13;
-    grid-column: 2/7;
+    grid-column: 6/10;
     padding: 50px 20px 0px 20px;
 
 }
@@ -50,13 +50,13 @@
 
 .img1{
     grid-row: 10/15;
-    grid-column: 2/6;
+    grid-column: 1/6;
     padding-top: 70px;
     padding: 10px;
 }
 .img2{
     grid-row: 13/18;
-    grid-column: 2/7;
+    grid-column: 7/12;
     padding: 10px;
 }
 .patterns{
