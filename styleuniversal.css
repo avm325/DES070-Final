@@ -44,7 +44,7 @@ html{ scroll-behavior: smooth; background: #232930;}
 nav{
     grid-column: 1;
     grid-row: 1/7;
-    z-index: 1;
+    z-index: 3;
     
 }
 .nav_links{
