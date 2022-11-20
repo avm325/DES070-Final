@@ -7,7 +7,7 @@
 
 :root {
 	--color-text: rgb(255, 255, 255);
-	--color-bg: hsl(22deg 25% 73%);
+	--color-bg: linear-gradient(to top, #0d1014ea, #232930);
 	--color-text-alt: hsl(1deg 69% 50%);
 	/* Column/item variables */
 	--ratio: 1.5; 				/* image ratio */
@@ -23,15 +23,15 @@ body {
 	margin: 0;
 	text-transform: uppercase;
 	color: var(--color-text);
-	background-color: var(--color-bg);
+	background-color: #232930;
 	font-family: acumin-pro, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 .demo-2 {
-	--color-bg: #232930;
-    --color-text-alt: #eaa750;
+	/* --color-bg: #232930;
+    --color-text-alt: #eaa750; */
 	--ratio: 1;
 	--grid-item-width: 23vw;
 	--radius: 8px;
@@ -192,9 +192,7 @@ body {
 
 
 .section__text {
-	max-width: 400px;
-    padding-bottom: 6vw;
-   
+	max-width: 300px;
 }
 
 .section__text--alt {
@@ -353,7 +351,7 @@ body {
 	margin-top: 40vh;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 32vw) {
 	
     .frame {
 		grid-template-columns: 15% 15% 1fr 15% 15%;
