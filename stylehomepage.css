@@ -3,7 +3,7 @@
 *::before {
 	box-sizing: border-box;
 }
-.alogo{scale: 45%;}
+.alogo{scale: 70%;}
 
 :root {
 	--color-text: rgb(255, 255, 255);
@@ -353,8 +353,9 @@ body {
 	margin-top: 40vh;
 }
 
-@media screen and (min-width: 53em) {
-	.frame {
+@media screen and (min-width: 600px) {
+	
+    .frame {
 		grid-template-columns: 15% 15% 1fr 15% 15%;
 		grid-template-rows: auto;
 		padding: 2rem 3rem;
@@ -384,4 +385,11 @@ body {
 		justify-self: end;
 		grid-column: revert;
 	}
+}
+
+
+@media (max-width: 600px){
+    .alogo{
+        scale: 10%;
+    }
 }
