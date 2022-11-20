@@ -3,6 +3,7 @@
 *::before {
 	box-sizing: border-box;
 }
+.alogo{scale: 45%;}
 
 :root {
 	--color-text: rgb(255, 255, 255);
@@ -189,11 +190,11 @@ body {
 	cursor: default;
 }
 
-.logo{scale: 70%; }
 
 .section__text {
 	max-width: 400px;
     padding-bottom: 6vw;
+   
 }
 
 .section__text--alt {
