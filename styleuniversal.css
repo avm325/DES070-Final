@@ -8,7 +8,6 @@ html{ scroll-behavior: smooth; background: #232930;}
     justify-content: center;
     overflow: hidden; 
     grid-template-rows: fit-content(8ch) fit-content(8ch) 1fr;
-    justify-content: center;
 }
 .logo{
     grid-row: 1;
