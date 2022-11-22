@@ -32,7 +32,6 @@
 
 body {
 	margin: 0;
-	text-transform: uppercase;
 	color: var(--color-text);
 	background-color: #232930;
 	-webkit-font-smoothing: antialiased;
@@ -208,10 +207,10 @@ text-align: center;}
     animation-delay:1s; 
     position: absolute; 
     top: 50vw;
-    border: 20px solid #33B561; 
+    /* border: 20px solid #33B561; 
     height: 80px;
-    width: 80px;
-    transform: translate(-50%,-90%) rotate(45deg);
+    width: 80px; */
+    /* transform: translate(-50%,-90%) rotate(45deg); */
     border-top: 10px;
     border-left: transparent;}
 
@@ -442,9 +441,6 @@ height: 100%;
         animation-delay:1s; 
         position: absolute; 
         top: 120vw;
-        border: 15px solid #33B561; 
-        height: 50px;
-        width: 50px;
         border-top: 10px;
         border-left: transparent;}
         
