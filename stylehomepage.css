@@ -3,7 +3,7 @@
 *::before {
 	box-sizing: border-box;
 }
-.alogo{scale: 70%;}
+.alogo{scale: 60%;}
 
 :root {
 	--color-text: rgb(255, 255, 255);
@@ -191,29 +191,27 @@ body {
 
 
 .section__text {
-	max-width: 300px;
-    padding-top: 4vw;
-}
+text-align: center;}
 .scroll{  
     animation: scroll 3s ease-in-out infinite;
     top:1vw;
-   animation-delay:1s; 
-   position: absolute; 
-   top: 50vw;
-   border: 20px solid #33B561; 
-   height: 100px;
-   width: 100px;
-   transform: translate(-50%,-90%) rotate(45deg);
-   border-top: transparent;
-   border-left: transparent;}
+    animation-delay:1s; 
+    position: absolute; 
+    top: 50vw;
+    border: 20px solid #33B561; 
+    height: 100px;
+    width: 100px;
+    transform: translate(-50%,-90%) rotate(45deg);
+    border-top: 10px;
+    border-left: transparent;}
 
-   @keyframes scroll{
-    0%{opacity: 0;}
-    30%{opacity: 1;}
-    60%{opacity: 1;}
-    100%{opacity: 0; top: 95%;}
-    
-}
+.scrolltext{transform: translate(50%,90%) rotate(-45deg);}
+
+@keyframes scroll{
+0%{opacity: 0;}
+30%{opacity: 1;}
+60%{opacity: 1;}
+100%{opacity: 0; top: 95%;}}
 
 
 .section__text--alt {
@@ -429,4 +427,16 @@ body {
     .section--columns{
 height: 100%;
     }
+    .scroll{  
+        animation: scroll 3s ease-in-out infinite;
+        top:1vw;
+        animation-delay:1s; 
+        position: absolute; 
+        top: 120vw;
+        border: 15px solid #33B561; 
+        height: 50px;
+        width: 50px;
+        border-top: 10px;
+        border-left: transparent;}
+        
 }
