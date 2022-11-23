@@ -243,6 +243,18 @@ text-decoration: none;
         scale: 80%;
         padding-top: 10px;
     }
+    .icons{
+        grid-template-columns: repeat(4, 1fr);
+        grid-row: 1;
+        grid-column: 12;
+        z-index: 2;
+        column-gap: 1vw;
+        padding-top: 8vh;
+        padding-right: 3vw;
+        display: inline-flex;
+        scale: 220%;
+        align-items: flex-start;
+    }
     .title{
         display: none;
     }
