@@ -246,11 +246,11 @@ text-decoration: none;
     .icons{
         grid-template-columns: repeat(4, 1fr);
         grid-row: 1;
-        grid-column: 12;
+        grid-column: 11;
         z-index: 2;
         column-gap: 1vw;
         padding-top: 8vh;
-        padding-right: 3vw;
+        padding-right: 2.5vw;
         display: inline-flex;
         scale: 220%;
         align-items: flex-start;
