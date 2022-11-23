@@ -1,6 +1,6 @@
 *{margin: 0;}
 html{ scroll-behavior: smooth; background: #232930;}
- 
+::-webkit-scrollbar {display: none;}
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
