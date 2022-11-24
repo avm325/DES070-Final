@@ -7,19 +7,7 @@
     scale: 100%;
     grid-row: 1/5;
 }
-.heading{
-    text-align: center;
-    grid-column: 1/13;
-    grid-row: 3;
-    font-family: garamond-premier-pro-display,serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 8vw;
-    color: white;
-    justify-content: center;
-    padding-top: 2vw;
-    z-index: 1;
-}
+
 
 .article_1{
     grid-row: 7/13;

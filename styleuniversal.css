@@ -17,14 +17,14 @@ html{ scroll-behavior: smooth; background: #232930;}
 }
 .title{
     grid-column: 1;
-    grid-row: 1/5;
+    grid-row: 1/4;
     z-index: 3;
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
-    padding-left: 30px;
-    padding-bottom: 15px;
-}
+    padding-left: 40px;
+    padding-bottom: 140px;
+    text-align: center;}
 
 nav{
     grid-column: 5/11;
@@ -58,7 +58,19 @@ nav{
 }
 .cart,.profile,.search{cursor: not-allowed;}
 
-
+.heading{
+    text-align: center;
+    grid-column: 1/13;
+    grid-row: 3;
+    font-family: garamond-premier-pro-display,serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 8vw;
+    color: white;
+    justify-content: center;
+    padding-top: 2vw;
+    z-index: 1;
+}
 .subheading{
     text-align: center;
     grid-column: 1/13;
@@ -90,9 +102,7 @@ max-width: 1000px;
 position: relative;
 margin: auto;
 }
-.caption {
-padding-top: .5vw;  
-}
+.caption {padding-top: .5vw;}
 .dot {
 height: 8px;
 width: 9px;
@@ -104,9 +114,7 @@ grid-column: 5/10;
 grid-row: 28;
 padding-top: 10px;
 }
-.active {
-background-color: #abffd2;
-}
+.active {background-color: #abffd2;}
 
 /*carosel fade*/
 .fade {
@@ -173,11 +181,11 @@ justify-content: center;
 }
 h3{/* subheading text */
 color: white;
-font-size: 2.5vw;
+font-size: 25px;
 font-family: articulat-cf,sans-serif;
 font-weight: 800;
 font-style: italic;
-word-spacing: 10px;
+word-spacing: 6px;
 }
 h4{/* nav text */
 font-family: garamond-premier-pro-display,serif;
