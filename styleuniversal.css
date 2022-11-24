@@ -11,10 +11,9 @@ html{ scroll-behavior: smooth; background: #232930;}
 }
 .logo{
     grid-row: 1;
-    padding-left: 3vw;
     z-index: 2;
     scale: 80%;
-    grid-column: 1/5;
+    grid-column: 1/4;
 }
 .title{
     grid-column: 1;
