@@ -18,10 +18,13 @@ html{ scroll-behavior: smooth; background: #232930;}
 }
 .title{
     grid-column: 1;
+    grid-row: 1/5;
     z-index: 3;
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    padding-left: 30px;
+    padding-bottom: 15px;
 }
 
 nav{
