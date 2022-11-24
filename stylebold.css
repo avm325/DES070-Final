@@ -21,7 +21,6 @@
     z-index: 1;
 }
 
-
 .article_1{
     grid-row: 7/13;
     grid-column: 6/10;
@@ -126,16 +125,7 @@
 
     }
     .article_3{grid-row: 12;}
-    .nav_links{
-        transform: rotate(0deg);
-        grid-column: 1/13;
-        grid-row: 1;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        writing-mode: horizontal-tb;
-        row-gap: 2vh;
-    }
+  
     p{font-size: 12px;
     line-height: 17px;
     text-align: center;}
