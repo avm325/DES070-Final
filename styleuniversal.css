@@ -14,7 +14,7 @@ html{ scroll-behavior: smooth; background: #232930;}
     padding-left: 3vw;
     z-index: 2;
     scale: 80%;
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 .title{
     grid-column: 1;
