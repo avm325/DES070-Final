@@ -4,6 +4,8 @@ section{
     align-content: center;
     text-align: center;
     min-height: 100vh;
+    grid-column: 1/13;
+    grid-row: 4/20;
 }
 .hidden{
     opacity: 0;
@@ -19,6 +21,50 @@ section{
 }
 
 
+
+.dropbtn {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-family: garamond-premier-pro-display,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  word-spacing: .5vh;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  text-align: center;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+.row1{grid-column: 1/13;grid-row: 1/2;}
+.row2{grid-column: 1/13;grid-row: 2/3;}
+.row3{grid-column: 1/13;grid-row: 3/4;}
+.row4{grid-column: 1/13;grid-row: 4/5;}
+.row5{grid-column: 1/13;grid-row: 5/6;}
 
 .fade {
     position: relative;
