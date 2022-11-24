@@ -27,7 +27,7 @@ html{ scroll-behavior: smooth; background: #232930;}
     text-align: center;}
 
 nav{
-    grid-column: 5/11;
+    grid-column:5/13;
     grid-row: 1;
     z-index: 3;
   }
@@ -267,17 +267,15 @@ text-decoration: none;
     }
 
     .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13;}
-
+   
+    nav{grid-column: 1/13; grid-row: 2;}
     .nav_links{
-        transform: rotate(0deg);
-        grid-column: 1/13;
-        grid-row: 1;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        writing-mode: horizontal-tb;
-        row-gap: 2vh;
+      padding: 2vw;
+       font-size: 14px;
+       z-index: 1;
     }
+    .dropbtn{font-size: 14px;}
+
     p{font-size: 12px;
     line-height: 17px;
     text-align: center;}
