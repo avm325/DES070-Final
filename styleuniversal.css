@@ -11,10 +11,10 @@ html{ scroll-behavior: smooth; background: #232930;}
 }
 .logo{
     grid-row: 1;
-    grid-column: 1/6;
     padding-left: 3vw;
-    scale: 77%;
     z-index: 2;
+    scale: 80%;
+    grid-column: 1/4;
 }
 .title{
     grid-column: 1;
