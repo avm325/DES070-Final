@@ -95,7 +95,6 @@ nav{
     padding-left: 90vw;
     display: inline-flex;
     align-items: center;
-    /* scale: 90%;  */
     padding-right: 10px;
 }
 .cart,.profile,.search{cursor: not-allowed;}

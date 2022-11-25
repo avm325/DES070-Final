@@ -1,5 +1,5 @@
 
-.monoback_mobile{
+.back_mobile{
     display: none;
 }
 
@@ -86,10 +86,10 @@
         scale: 80%;
         padding-top: 10px;
     }
-    .monoback{
+    .back{
         display: none;
     }
-    .monoback_mobile{
+    .back_mobile{
         display: block;
     }
     .title{
