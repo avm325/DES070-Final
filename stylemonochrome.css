@@ -3,19 +3,6 @@
     display: none;
 }
 
-.heading{
-    text-align: center;
-    grid-column: 1/13;
-    grid-row: 3;
-    font-family: garamond-premier-pro-display,serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 8vw;
-    color: white;
-    justify-content: center;
-    padding-top: 2vw;
-    z-index: 1;
-}
 
 
 .article_1{
@@ -56,28 +43,7 @@
     padding: 10px;
 }
 
-/* image fade  */
-.fade {
-    position: relative;
-    grid-column: 1/13;
-    grid-row: 1/5;
-    z-index: 1;
-    width: 100%;
-    
-  }
-  .fade .monoback:before {
-    content: '';
-    background-image: linear-gradient(to top, #232930,#23293063, rgba(255, 255, 255, 0.085));
-    position: absolute;
-    height: 100%;
-    left: 0px;
-    overflow: hidden;
-    width: 100%;
 
-  }
-  .fade .monoback:after {
-    content: '';
-  }
 
   @media (max-width: 600px){
     .logo{
