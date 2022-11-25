@@ -302,7 +302,7 @@ text-decoration: none;
 
     .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13;}
    
-    nav{grid-column: 1/13; grid-row: 2;}
+    nav{grid-column: 1/13; grid-row: 1;padding-left: 30px;}
     .nav_links{
       padding: 2vw;
        font-size: 14px;
