@@ -27,9 +27,12 @@ html{ scroll-behavior: smooth; background: #232930;}
     text-align: center;}
 
 nav{
-    grid-column:5/13;
+    grid-column:4/13;
     grid-row: 1;
     z-index: 3;
+    place-items: center;
+    align-content: center;
+    text-align: center;
   }
   
   .nav_links{
@@ -42,6 +45,9 @@ nav{
     word-spacing: .5vh;
     cursor: pointer;
     position: fixed;
+    place-items: center;
+    align-content: center;
+    text-align: center;
   }
   .dropbtn {
     border: none;
@@ -84,14 +90,16 @@ nav{
     grid-row: 1;
     grid-column: 12;
     z-index: 2;
-    column-gap: 10%;
+    column-gap: 13%;
     padding-top: 1.5vw;
     padding-left: 90vw;
     display: inline-flex;
-    scale: 90%;
-    align-items: center    
+    align-items: center;
+    /* scale: 90%;  */
+    padding-right: 10px;
 }
 .cart,.profile,.search{cursor: not-allowed;}
+.menu{cursor: pointer;}
 
 .heading{
     text-align: center;
