@@ -1,12 +1,5 @@
 
-.back_mobile{
-    display: none;
-}
-.back{
-    grid-column: 1/13;
-    scale: 100%;
-    grid-row: 1/5;
-}
+
 
 
 .article_1{
@@ -54,28 +47,7 @@
     grid-column: 1/13;
 }
 
-/* image fade  */
-.fade {
-    position: relative;
-    grid-column: 1/13;
-    grid-row: 1/5;
-    z-index: 1;
-    width: 100%;
-    
-  }
-  .fade .back:before {
-    content: '';
-    background-image: linear-gradient(to top, #232930,#23293063, rgba(255, 255, 255, 0.085));
-    position: absolute;
-    height: 100%;
-    left: 0px;
-    overflow: hidden;
-    width: 100%;
 
-  }
-  .fade .back:after {
-    content: '';
-  }
 
   @media (max-width: 600px){
     .logo{
@@ -84,12 +56,7 @@
         scale: 80%;
         padding-top: 10px;
     }
-    .back{
-        display: none;
-    }
-    .back_mobile{
-        display: block;
-    }
+   
     .title{
         display: none;
     }
