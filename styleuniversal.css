@@ -80,16 +80,16 @@ nav{
   
 
 .icons{
-    grid-template-columns: repeat(4, 1fr);
+    position: fixed;
     grid-row: 1;
     grid-column: 12;
     z-index: 2;
-    column-gap: 15%;
+    column-gap: 10%;
     padding-top: 1.5vw;
-    padding-right: 2vw;
+    padding-left: 90vw;
     display: inline-flex;
-    scale: 140%;
-    /* scale: 150%; */
+    scale: 90%;
+    align-items: center    
 }
 .cart,.profile,.search{cursor: not-allowed;}
 
@@ -296,13 +296,11 @@ text-decoration: none;
         scale: 220%;
         align-items: flex-start;
     }
-    .title{
-        display: none;
-    }
+    .title{display: none;}
 
     .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13;}
    
-    nav{grid-column: 1/13; grid-row: 1;padding-left: 30px;}
+    nav{grid-column: 1/13; grid-row: 1;}
     .nav_links{
       padding: 2vw;
        font-size: 14px;
@@ -313,9 +311,9 @@ text-decoration: none;
     p{font-size: 12px;
     line-height: 17px;
     text-align: center;}
-    h4{
-        font-size: 3vw;
-    }
+
+    h4{font-size: 3vw;}
+
     h6{ /* caption */
         font-size: 10px;
         padding-left: 10px;
