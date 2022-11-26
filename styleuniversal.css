@@ -192,7 +192,7 @@ to {opacity: 1}
   }
   .fade .monoback:before {
     content: '';
-    background-image: linear-gradient(to top, #232930,#23293063, rgba(255, 255, 255, 0.085));
+    background-image: linear-gradient(to top, #232930,#2329303c, rgba(255, 255, 255, 0.052));
     position: absolute;
     height: 100%;
     left: 0px;
