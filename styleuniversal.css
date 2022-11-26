@@ -206,12 +206,14 @@ to {opacity: 1}
 
 .footer{
 background-color: #16BA63;
+color: white;
 display: grid;
 grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(1, 1fr);
+grid-template-rows: repeat(5, 1fr);
 overflow: hidden;
 padding: 30px;
 column-gap: 50px;
+line-height: 30px;
 grid-row: 40;
 grid-column: 1/13;
 }
