@@ -208,8 +208,8 @@ to {opacity: 1}
 background-color: #16BA63;
 color: white;
 display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
 overflow: hidden;
 padding: 30px;
 column-gap: 50px;
@@ -217,6 +217,8 @@ line-height: 30px;
 grid-row: 40;
 grid-column: 1/13;
 }
+
+
 .smlogo{
 grid-row: 1;
 grid-column: 1/2;
@@ -321,7 +323,6 @@ a:active {
 text-decoration: none; 
 }
 
-  
 @media (max-width: 600px){
     .logo{
         grid-column: 1/13;
@@ -369,14 +370,11 @@ text-decoration: none;
         font-size: 10px;
         padding-left: 10px;
     }
-    .ul1,.ul2,.ul3,.ul4{
-        grid-column: 2/5;
-        text-align: center;
-        row-gap: 15px;
-        line-height: 25px;
-    }
-    .ul1 h1{line-height: 25px;}.ul2 h1{line-height: 25px;}.ul3 h1{line-height: 25px;}.ul4 h1{line-height: 25px;}
-    .footer{column-gap: 0px;}
+
+    footer{grid-template-rows: repeat(4, 1fr);}
+    .profile{grid-row: 1;}    .contact{grid-row: 2;}    .help{grid-row: 3;}    .avante{grid-row: 4;}
+    .profile,.contact,.help,.avante{grid-column: 2/4;text-align: center;}
+
     .smlogo{display: none;}
     h3{font-size: 18px;}
     
