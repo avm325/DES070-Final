@@ -327,7 +327,7 @@ text-decoration: none;
     .logo{
         grid-column: 1/13;
         justify-content: center;
-        scale: 80%;
+        scale: 50%;
         padding-top: 10px;
     }
     .back{
@@ -372,12 +372,12 @@ text-decoration: none;
         font-size: 10px;
         padding-left: 10px;
     }
+    h3{font-size: 18px;}
 
     footer{grid-template-rows: repeat(4, 1fr);}
     .profile{grid-row: 1;}    .contact{grid-row: 2;}    .help{grid-row: 3;}    .avante{grid-row: 4;}
     .profile,.contact,.help,.avante{grid-column: 2/4;text-align: center;}
 
-    .smlogo{display: none;}
-    h3{font-size: 18px;}
+    
     
 }
