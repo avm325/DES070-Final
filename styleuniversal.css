@@ -363,6 +363,8 @@ text-decoration: none;
     p{font-size: 14px;
     line-height: 17px;
     text-align: center;}
+    .heading{font-size: 60px;}
+    .subheading h5{padding-top: 200px;font-size: 25px;}
 
     h4{font-size: 3vw;}
 
