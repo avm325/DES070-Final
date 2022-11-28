@@ -32,7 +32,7 @@ html{ scroll-behavior: smooth; background: #232930;}
     writing-mode: vertical-lr;
     text-shadow: rgba(0, 0, 0, 0.847) 1px 0 10px;
     padding-left: 40px;
-    padding-bottom: 140px;
+    padding-bottom: 10px;
     text-align: center;}
 
     .heading{
@@ -42,7 +42,7 @@ html{ scroll-behavior: smooth; background: #232930;}
         font-family: garamond-premier-pro-display,serif;
         font-weight: 400;
         font-style: italic;
-        font-size: 120px;
+        font-size: 100px;
         color: white;
         justify-content: center;
         padding-top: 3.5vw;
