@@ -256,7 +256,7 @@ h2{/* heading sans serif*/
 font-family: articulat-cf,sans-serif;
 font-weight: 900;
 font-style: normal;
-font-size: 10vw;
+font-size: 130px;
 justify-content: center;
 }
 h3{/* subheading text */
@@ -364,14 +364,17 @@ text-decoration: none;
     text-align: center;}
     .heading{font-size: 60px;}
     .subheading h5{padding-top: 200px;font-size: 25px;}
+    
 
+    h2{font-size: 70px;}
+    h3{font-size: 18px;}
     h4{font-size: 3vw;}
 
     h6{ /* caption */
         font-size: 10px;
         padding-left: 10px;
     }
-    h3{font-size: 18px;}
+    
 
     footer{grid-template-rows: repeat(4, 1fr);}
     .profile{grid-row: 1;}    .contact{grid-row: 2;}    .help{grid-row: 3;}    .avante{grid-row: 4;}
