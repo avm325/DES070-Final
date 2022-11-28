@@ -32,14 +32,14 @@
 
 .img1{
     grid-row: 10/15;
-    grid-column: 7/12;
+    grid-column: 8/13;
     padding-top: 70px;
-    padding: 10px;
+    padding: 20px;
 }
 .img2{
     grid-row: 13/18;
-    grid-column: 2/7;
-    padding: 10px;
+    grid-column: 1/6;
+    padding: 20px;
 }
 
 
