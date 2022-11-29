@@ -204,47 +204,21 @@ body {
 .section__text {
 text-align: center;}
 
-
-/* .scrolltext{ 
-	animation: scroll 6s ease-in-out infinite;
-    animation-delay:1s; 
-    position: absolute; 
-    top: 52vw;
-    border-top: 10px;
-    border-left: transparent;
-	justify-items: right;
-} */
-
-
-.scrolltext {
- height: 50px;	
- overflow: hidden;
- position: relative;
- background: yellow;
- color: orange;
- border: 1px solid orange;
+.scrolltext h4{font-size: 25px;}
+.scrolltext {	
+ color: #E94D6B;
+ padding: 0 0 5px 0;
+ position: relative; 
+ text-align: center;	
+ animation: vertically 1s linear infinite alternate;
 }
-.scrolltext {
- position: absolute;
- /* width: 100%;
- height: 100%; */
- 
- text-align: center;
- /* Apply animation to this element */	
- animation: vertically 2s linear infinite alternate;
-}
-/* Move it (define the animation) */
-
+/* Move/postion of animation */
 @keyframes vertically {
  0%   { 
- -moz-transform: translateY(95%); /* Browser bug fix */
- -webkit-transform: translateY(95%); /* Browser bug fix */
- transform: translateY(95%); 		
+ transform: translateY(20%); 		
  }
  100% { 
- -moz-transform: translateY(-99%); /* Browser bug fix */
- -webkit-transform: translateY(-99%); /* Browser bug fix */
- transform: translateY(-99%); 
+ transform: translateY(0%); 
  }
 }
 
