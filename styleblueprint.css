@@ -29,3 +29,44 @@
     font-style: normal;
     font-weight: 600;
 }
+
+
+@media (max-width: 600px){
+    .unav{grid-column: 1/13; 
+        grid-row: 1;
+        text-align: center;
+        z-index: 3;
+        place-items: center;
+        align-content: center;
+    }
+    .unav_links{
+      padding: 2vw;
+       font-size: 14px;
+       z-index: 1;
+       text-align: center;
+       padding-top: 4vw;
+       text-shadow: rgb(0, 0, 0) 1px 0 10px;
+       font-family: garamond-premier-pro-display,serif;
+       font-weight: 400;
+       font-style: normal;
+       word-spacing: .5vh;
+       cursor: pointer;
+       position: fixed;
+       place-items: center;
+       align-content: center;
+    }
+
+    .ulogo{
+        grid-column: 1/13;
+        justify-content: center;
+        scale: 50%;
+        padding-top: 10px;
+
+        grid-row: 1;
+    z-index: 2;
+    scale: 80%;
+    }
+
+
+}
+

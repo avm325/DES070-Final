@@ -26,14 +26,13 @@ html{ scroll-behavior: smooth; background: #232930;}
 }
 .title{
     grid-column: 1;
-    grid-row: 1/4;
+    grid-row: 2/4;
     z-index: 3;
     transform: rotate(180deg);
     writing-mode: vertical-lr;
-    text-shadow: rgba(0, 0, 0, 0.847) 1px 0 10px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    text-align: center;}
+    /* text-shadow: rgba(0, 0, 0, 0.847) 1px 0 10px; */
+    padding: 0 5px 70px 55px;
+    text-align: right;}
 
     .heading{
         text-align: center;
