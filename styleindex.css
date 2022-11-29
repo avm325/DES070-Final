@@ -233,6 +233,10 @@ text-align: center;}
 	text-align: center;
 }
 
+
+
+
+
 @media screen and (min-width: 32vw) {
 	
     .frame {
@@ -286,46 +290,134 @@ height: 100%;
         
 }
 
-h1{/* footer */
-    font-size: 15px;
-    font-family: articulat-cf,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    color: white;
-    line-height: 3vw;
-    }
-    h2{/* heading sans serif*/
-    font-family: articulat-cf,sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 10vw;
-    justify-content: center;
-    }
-    h3{/* subheading text */
-    color: white;
-    font-size: 2.5vw;
-    font-family: articulat-cf,sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    word-spacing: 10px;
-    }
-    h4{/* nav text */
-    font-family: garamond-premier-pro-display,serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5vw;
-    word-spacing: 10px;
-    }
-    h5{
-    font-family: garamond-premier-pro-display,serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    }
-    h6{ /* caption */
-    font-size: 1vw;
-    font-family: articulat-cf,sans-serif;
-    font-style: normal;
-    text-align: left;
-    font-weight: 300;
-    }
+p{/* body text */
+	font-size: 17px;
+	font-family: articulat-cf,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	line-height: 2vw;
+	}
+	h1{/* footer */
+	font-size: 15px;
+	font-family: articulat-cf,sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	color: white;
+	line-height: 3vw;
+	}
+	h2{/* heading sans serif*/
+	font-family: articulat-cf,sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 130px;
+	justify-content: center;
+	}
+	h3{/* subheading text */
+	color: white;
+	font-size: 25px;
+	font-family: articulat-cf,sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	word-spacing: 6px;
+	}
+	h4{/* nav text */
+	font-family: garamond-premier-pro-display,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5vw;
+	word-spacing: 10px;
+	}
+	h5{
+	font-family: garamond-premier-pro-display,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	}
+	h6{ /* caption */
+	font-size: 1vw;
+	font-family: articulat-cf,sans-serif;
+	font-style: normal;
+	text-align: left;
+	font-weight: 300;
+	}
+	
+	img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	}
+	body{
+	background: #232930;
+	}
+	
+	/* link appearance */
+	a {
+	-webkit-transition: color .5s;
+	transition: color .5s;
+	cursor: pointer;
+	}
+	a:link { 
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	}
+	a:visited { 
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	}
+	a:hover {
+	color: #E94D6B;
+	cursor: pointer;
+	text-shadow: none;
+	}
+	a:active { 
+	text-decoration: none; 
+	}
+	
+	.dropbtn {
+		border: none;
+		background-color: rgba(255, 255, 255, 0);
+		text-shadow: rgb(0, 0, 0) 1px 0 10px;
+		font-family: garamond-premier-pro-display,serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20px;
+		word-spacing: .5vh;
+		cursor: pointer;
+		place-items: center;
+		align-content: center;
+		text-align: center;
+	  }
+	  
+	  .dropdown {
+		display: inline-block;
+		place-items: center;
+		align-content: center;
+		text-align: center;
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		min-width: 160px;
+		text-align: center;
+		z-index: 1;
+		
+	  }
+	  
+	  .dropdown-content a {
+		text-decoration: none;
+		padding: 5px;
+		display: block;
+		place-items: center;
+		align-content: center;
+		text-align: center;
+	  }
+	  
+	  .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0);color: #16BA63;}
+	  
+	  .dropdown:hover .dropdown-content {display: block;}
+	  
+	
