@@ -1,8 +1,4 @@
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-}
+ *{margin: 0;}
 
 .icons{
     display: grid;
@@ -17,10 +13,7 @@
 }
 .alogo{scale: 60%;}
 
-/* :root {
-	--color-text: rgb(255, 255, 255);
-	/* --color-bg: linear-gradient(to top, #0d1014ea, #232930); */
-} */
+
 
 body {
 	margin: 0;
@@ -383,8 +376,8 @@ p{/* body text */
 		font-family: garamond-premier-pro-display,serif;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 20px;
 		word-spacing: .5vh;
+		
 		cursor: pointer;
 		place-items: center;
 		align-content: center;
@@ -401,19 +394,19 @@ p{/* body text */
 	  .dropdown-content {
 		display: none;
 		position: absolute;
-		min-width: 160px;
 		text-align: center;
 		z-index: 1;
+		position: relative;
 		
 	  }
 	  
 	  .dropdown-content a {
 		text-decoration: none;
-		padding: 5px;
 		display: block;
 		place-items: center;
 		align-content: center;
 		text-align: center;
+		font-size: 60px;
 	  }
 	  
 	  .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0);color: #16BA63;}
