@@ -61,11 +61,13 @@
         justify-content: center;
         scale: 50%;
         padding-top: 10px;
-
         grid-row: 1;
-    z-index: 2;
-    scale: 80%;
+        z-index: 2;
+        scale: 80%;
     }
+
+.article_1{grid-column: 1/13;padding: 0 10px;}
+
 
 
 }
