@@ -9,6 +9,11 @@ html{ scroll-behavior: smooth; background: #232930;}
     overflow: hidden; 
     grid-template-rows: fit-content(8ch) fit-content(8ch) 1fr;
 }
+
+/* pink #E94D6B
+green #33B561
+orange #EE7248 */
+
 .back_mobile{
     display: none;
 }
