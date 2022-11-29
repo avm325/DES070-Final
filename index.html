@@ -3,16 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>homepage</title>
-		<meta name="description" content="A smooth scrolling design with fixed sections." />
-		<meta name="keywords" content="smooth scrolling, layout, frontend, css, javascript, web design" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
+		<title>home</title>
 		<link rel="stylesheet" href="https://use.typekit.net/lgy2swt.css">
-		<link rel="stylesheet" type="text/css" href="css/base.css" />
         <link rel="stylesheet" href="styleindex.css">
-    <link rel="stylesheet" href="https://use.typekit.net/heb0ayb.css">
-    <style>::-webkit-scrollbar {display: none;}</style>
+      <link rel="stylesheet" href="https://use.typekit.net/heb0ayb.css">
+      <link rel="stylesheet" href="styleuniversl.css">
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 		
 	</head>
@@ -34,7 +29,7 @@
 
             <section class="section section--columns">
                             
-                <div class="container">
+                <div class="container" style="background-color:red; z-index: 80;">
                             <div class="column1">
                                 
                                 <img src="images/u5.png" alt="">
@@ -68,25 +63,37 @@
         </div>
             </div> 
 			<section class="section section--showcase">
-				<div class="icons">
+				<div class="icons" style="scale: 40%; position:absolute; left:60vw;">
                     <div class="menu"><img src="images/menu.png" alt="menu button"></a></div>
                     <div class="search"><img src="images/search.png" alt="searchbutton"></a></div>
                     <div class="profile"><img src="images/profile.png" alt="profile button"></a></div>
                     <div class="cart"><img src="images/cart.png" alt="cart button"></a></div>
                 </div>  
+               
+                
+
                 
                 <div class="menu-list">
-
-                
-                    <h2>WOMEN</h2>
-                    <h3>MEN</h3>
-                    <h4>RACKED</h4>
-                    <h1>MONOCHROME</h1>
-                    <h5>BLUEPRINT</h5>
-               
-               
-
+                    <a href="https://avm325.github.io/DES070-Final/women"><h2>WOMEN</h2></a> 
+                    <a href=""style="cursor: not-allowed;"><h2>MEN</h2></a>
+                    <div class="dropdown">
+                     <button class="dropbtn"><a href=""><h2>THE CURRENT</h2></a></button>
+                     <div class="dropdown-content">
+                       <a href="https://avm325.github.io/DES070-Final/monochrome">MONOCHORME</a>
+                       <a href="https://avm325.github.io/DES070-Final/boldprints">BOLD PRINTS</a>
+                     </div>
+                   </div>
+                    <a href=""style="cursor: not-allowed;"><h2>RACKED</h2></a>
+                    <a href="https://avm325.github.io/DES070-Final/blueprint"><h2>BLUEPRINT</h2></a>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
 				</div>
+
 			</section>
 		</main>
 		<script type="module" src="js/index2.js"></script>
