@@ -113,7 +113,7 @@ nav{
   .dropdown:hover .dropdown-content {display: block;}
   
 
-.icons{
+  .icons{
     position: fixed;
     grid-row: 1;
     grid-column: 12;
