@@ -374,9 +374,9 @@ text-decoration: none;
 
     footer{grid-template-rows: repeat(10, 1fr);}
     .footer .alogo{grid-column: 1/11;padding:0;}
+    .ftext1,.ftext2,.ftext3,.ftext4,.ftext5,.ftext6{line-height: 5.5vw;}
     .ftext1{grid-row: 2;grid-column: 1/11;}.ftext2{grid-row: 3;grid-column: 1/11;}.ftext3{grid-row: 4;grid-column: 1/11;}.ftext4{grid-row: 5;grid-column: 1/11;}
-    .ftext5{grid-row: 6;grid-column: 1/11;}.ftext6{grid-row: 7;grid-column: 1/11;}.ftext7{grid-row: 8;grid-column: 1/11;}.ftext8{grid-row: 9;grid-column: 1/11;}
-
+    .ftext5{grid-row: 6;grid-column: 1/11;}.ftext6{grid-row: 7;grid-column: 1/11;}
     
     
 }

@@ -77,10 +77,10 @@ text-align: center;}
 /* Move/postion of animation */
 @keyframes vertically {
  0%   { 
- transform: translateY(50%); 		
+ transform: translateY(250%); 		
  }
  100% { 
- transform: translateY(-30%); 
+ transform: translateY(350%); 
  }
 }
 
