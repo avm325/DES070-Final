@@ -3,23 +3,22 @@
 
 
 .article_1{
-    grid-row: 7/13;
-    grid-column: 6/10;
-    padding: 50px 20px 0px 20px;
-
+    grid-row: 5/13;
+    grid-column: 6/11;
+    padding: 5vw 2vw 0 .2vw;
+    text-align: justify;
 }
 .article_2{
-    grid-row: 15/21;
-    grid-column: 7/12;
-    padding: 30px 40px 20px 25px;
-    text-align: right;
+    grid-row: 21;
+    grid-column: 1/5;
+    padding: 0vw 4vw 0px 4vw;
+    text-align: justify;
 }
 .article_3{
-    grid-row: 27;
-    grid-column: 2/6;
+    grid-row: 16;
+    grid-column: 6/11;
     text-align: left;
-    padding-top: 11vw;
-    padding-left: 2em;
+    padding-top: 35vw;
 }
 .article_4{
     grid-row: 35;
@@ -30,21 +29,36 @@
 
 .img1{
     grid-row: 10/15;
-    grid-column: 1/6;
-    padding-top: 70px;
-    padding: 10px;
+    grid-column: 2/8;
+    padding-top: 1vw;
+    padding: 2vw;
+    scale: 130%;
 }
 .img2{
     grid-row: 13/18;
-    grid-column: 7/12;
-    padding: 10px;
+    grid-column: 6/12;
+    align-content: center;
+    padding-top: 7vw;
+    scale: 120%;
+}
+.img3{
+    grid-row: 12/18;
+    grid-column: 9/13;
+    padding-top: 10vw;
+}
+.img4{
+    grid-row: 16;
+    grid-column: 2/5;
+    padding-top: 10vw;
+    scale: 130%;
 }
 .patterns{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-row: 30;
+    grid-row: 19;
     grid-column: 1/13;
+    padding: 10vw;
 }
 
 
@@ -60,7 +74,7 @@
     .title{
         display: none;
     }
-    .img2,.img1,.dot,.carosel{grid-column:1/13;}
+    .img2,.img1,.img3,.dot,.carosel{grid-column:1/13; align-items: center;}
 
     .article_1{grid-row: 7;}
 
@@ -71,15 +85,17 @@
     .img2{grid-row: 10;}
 
 
-    .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13;}
+    .carosel,.carosel_gradient{grid-row: 13;grid-column: 2/12;}
 
     .article_1,.article_2,.article_3,.article_4{
         grid-column: 1/13;
         padding-left: 25px;
         padding-right: 25px;
+        padding-bottom: 1vw;
 
     }
-    .article_3{grid-row: 12;}
+    .article_3{grid-row: 14;}
+    .img3{grid-row: 15;}
   
     p{font-size: 12px;
     line-height: 17px;
