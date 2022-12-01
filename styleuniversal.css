@@ -138,10 +138,10 @@ nav{
 }
 /* carosel code */
 .carosel_gradient{
-    background: linear-gradient(rgba(32, 38, 45, 0.711),rgba(14, 15, 20, 0.922),rgba(0, 0, 0, 1),rgba(14, 15, 20, 0.922),rgba(32, 38, 45, 0.731));
+    background: linear-gradient(rgba(32, 38, 45, 0.302),rgba(10, 10, 14, 0.922),rgba(0, 0, 0, 1),rgba(10, 10, 14, 0.922),rgba(32, 38, 45, 0.337));
     grid-row: 24/31;
     grid-column: 1/13;
-    z-index: -1;
+    z-index: 1;
 
 }
 .carosel{
@@ -150,6 +150,7 @@ grid-column: 7/13;
 text-align: center;
 width: 65%;
 padding-top: 4vw;
+z-index: 2;
 }
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -345,7 +346,7 @@ text-decoration: none;
     }
     .title{display: none;}
 
-    .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13;}
+    .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13; align-items: center;}
    
     nav{grid-column: 1/13; grid-row: 1;text-align: center;}
     .nav_links{
@@ -357,7 +358,7 @@ text-decoration: none;
     .dropbtn{font-size: 14px;}
 
     p{font-size: 14px;
-    line-height: 17px;
+    line-height: 20px;
     text-align: center;}
     .heading{font-size: 60px;}
     .subheading h5{padding-top: 200px;font-size: 25px;}
