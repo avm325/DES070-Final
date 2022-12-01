@@ -321,6 +321,7 @@ text-decoration: none;
 }
 
 @media (max-width: 600px){
+   .heading h2{font-size: 50px;}
     .logo{
         grid-column: 1/13;
         justify-content: center;
@@ -346,8 +347,8 @@ text-decoration: none;
     }
     .title{display: none;}
 
-    .carosel,.carosel_gradient{grid-row: 13;grid-column: 1/13; align-items: center;}
-   
+    .carosel{grid-row: 13;grid-column: 4/13; align-items: center;}
+    .carosel_gradient{grid-row: 13; grid-column: 1/13;}
     nav{grid-column: 1/13; grid-row: 1;text-align: center;}
     .nav_links{
       padding: 2vw;
